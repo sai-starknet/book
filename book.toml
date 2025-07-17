@@ -1,10 +1,12 @@
 [book]
 title = "Sai Book"
-author = ["Sai Team"]
-description = "A book generated with mdBook."
+authors = ["Sai Team"]
+description = "A comprehensive guide to the Sai ecosystem for Cairo-based dApps"
 multilingual = false
 src = "src"
 
 [output.html]
 default-theme = "dark"
 mathjax-support = true
+git-repository-url = "https://github.com/sai-starknet/book"
+edit-url-template = "https://github.com/sai-starknet/book/edit/main/{path}"

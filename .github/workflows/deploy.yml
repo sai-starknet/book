@@ -18,7 +18,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
       
       - name: Setup mdBook
         uses: peaceiris/actions-mdbook@v2
@@ -34,7 +35,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './book'
+          path: 'book'
 
   deploy:
     environment:
