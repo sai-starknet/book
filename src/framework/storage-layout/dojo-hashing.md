@@ -1,1 +1,0 @@
-# Dojo Hashing Model
