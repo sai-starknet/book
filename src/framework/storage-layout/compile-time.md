@@ -18,3 +18,12 @@ If the table is known at compile time and locally controlled, we can precompute 
 [[STORAGE_BASE, [table, member-attribute]], row]
 [[[STORAGE_BASE, member-attribute], table], row]
 ```
+
+This would result in a cost of:
+$$H = RA$$
+
+Where:
+
+- _H_ = Number of hash operations
+- _R_ = Number of rows
+- _A_ = Number of attributes
