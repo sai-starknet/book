@@ -1,0 +1,10 @@
+[book]
+title = "Sai Book"
+author = ["Sai Team"]
+description = "A book generated with mdBook."
+multilingual = false
+src = "src"
+
+[output.html]
+default-theme = "dark"
+mathjax-support = true
